@@ -1,7 +1,7 @@
 config = {}
 class TrainingConfig(object):
     p = 0.5
-    base_rate = 1e-2
+    base_rate = 1e-3
     momentum = 0.9
     decay_step = 15000
     decay_rate = 0.95
